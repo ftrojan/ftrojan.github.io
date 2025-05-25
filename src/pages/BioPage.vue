@@ -11,16 +11,16 @@
     </p>
     <p>
       V současné době hraje Orion Jazz Band v sestavě sedmi muzikantů:
-      <ul>
-        <li>Karel Šíma - kontrabas</li>
-        <li>Milan Dostalík - kytara</li>
-        <li>Lukáš Randák - trubka</li>
-        <li>Igor Nosov - bicí</li>
-        <li>Petr Resch - housle</li>
-        <li>Martina Trojanová - zpěv</li>
-        <li>Filip Trojan - zpěv a kytara</li>
-      </ul>
     </p>
+    <ul>
+      <li>Karel Šíma - kontrabas</li>
+      <li>Milan Dostalík - kytara</li>
+      <li>Lukáš Randák - trubka</li>
+      <li>Igor Nosov - bicí</li>
+      <li>Petr Resch - housle</li>
+      <li>Martina Trojanová - zpěv</li>
+      <li>Filip Trojan - zpěv a kytara</li>
+    </ul>
     <p>
       Na fotografii pořízené v únoru 2025 v Berounském pivovaru jsou zleva Lukáš Randák, Petr Resch, Milan Dostalík, Karel Šíma a Filip Trojan.
     </p>
