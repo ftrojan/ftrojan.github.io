@@ -1,1 +1,0 @@
-import{Q as t}from"./QPage-DY7ocgAK.js";import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{s as r,t as s,u as a,z as c}from"./index-CUYiqZgu.js";import"./render-DjSmuU3c.js";const f={};function n(_,e){return s(),r(t,{class:"flex flex-center"},{default:a(()=>e[0]||(e[0]=[c("h1",null,"Bio",-1)])),_:1,__:[0]})}const u=o(f,[["render",n]]);export{u as default};

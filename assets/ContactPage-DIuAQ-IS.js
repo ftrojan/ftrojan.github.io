@@ -1,1 +1,0 @@
-import{Q as e}from"./QPage-DY7ocgAK.js";import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{s as r,t as a,u as s,z as n}from"./index-CUYiqZgu.js";import"./render-DjSmuU3c.js";const c={};function f(_,t){return a(),r(e,{class:"flex flex-center"},{default:s(()=>t[0]||(t[0]=[n("h1",null,"Kontakt",-1)])),_:1,__:[0]})}const u=o(c,[["render",f]]);export{u as default};
