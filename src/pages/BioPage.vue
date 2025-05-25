@@ -1,6 +1,33 @@
 <template>
-  <q-page class="flex flex-center">
-    <h1>Bio</h1>
+  <q-page class="flex flex-left">
+    <h5>Bio</h5>
+    <p>
+      Orion Jazz Band hraje a zpívá tradiční jazz a swing.
+      Je to skupina muzikantů z Berounska se základnou na letišti v Bubovicích.
+      Skupina vznikla v roce 2024 a je pojmenována po bývalém členovi skupiny, který již bohužel není mezi námi.
+      V repertoáru má skladby z 20. a 30. let minulého století, které jsou stále populární a oblíbené.
+      Jsou to převážně anglicky zpívané jazzové standardy, ale i české nebo portugalské písně, případně instrumentální skladby.
+      Orion Jazz Band hraje na různých akcích k poslechu i k tanci. Aktuální kalendář vystoupení je k dispozici na stránce <a href="/events">Vystoupení</a>.
+    </p>
+    <p>
+      V současné době hraje Orion Jazz Band v sestavě sedmi muzikantů:
+      <ul>
+        <li>Karel Šíma - kontrabas</li>
+        <li>Milan Dostalík - kytara</li>
+        <li>Lukáš Randák - trubka</li>
+        <li>Igor Nosov - bicí</li>
+        <li>Petr Resch - housle</li>
+        <li>Martina Trojanová - zpěv</li>
+        <li>Filip Trojan - zpěv a kytara</li>
+      </ul>
+    </p>
+    <p>
+      Na fotografii pořízené v únoru 2025 v Berounském pivovaru jsou zleva Lukáš Randák, Petr Resch, Milan Dostalík, bicí zaskakuje Petr Resch mladší, Karel Šíma a Filip Trojan.
+    </p>
+    <img
+      src="https://lh3.googleusercontent.com/d/1-03c3bX3J7dhTfN2KQ1oCsQZFLedbVl9"
+      style="width: 100%;"
+      alt="">
   </q-page>
 </template>
 
