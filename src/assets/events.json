@@ -14,8 +14,8 @@
         "time": "16:00",
         "location": "Klínec, fotbalové hřiště",
         "gallery": [
-            {"type": "photo", "id": "13Hg_yQW1M0QVlPRUVI2O3t_SWCtsQj_U"},
-            {"type": "video", "id": "135L5s2NLocgZ8zzaUgDY4Lfx3YRvw1ID"}
+            {"type": "image", "id": "13Hg_yQW1M0QVlPRUVI2O3t_SWCtsQj_U"},
+            {"type": "video", "id": "UBdBuIiX5LE"}
         ]
     },
     {
@@ -23,7 +23,7 @@
         "time": "20:00",
         "location": "Beroun, Akustická noc, Jiná káva",
         "gallery": [
-            {"type": "video", "id": "1296m2uLCUol7C0AIGLcO1u1trAPt90JD"}
+            {"type": "video", "id": "fIdyookL1SA"}
         ]
     },
     {
@@ -32,9 +32,9 @@
         "location": "Pivovar Berounský medvěd",
         "poster_id": "10--uoXFhFK1yJ8qBoroZsi4ar6Gdu5cW",
         "gallery": [
-            {"type": "photo", "id": "1-03c3bX3J7dhTfN2KQ1oCsQZFLedbVl9"},
-            {"type": "photo", "id": "1-A-NXQ3PDUgpfIbA6XSK_KnudeZUhtPP"},
-            {"type": "photo", "id": "1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"}
+            {"type": "image", "id": "1-03c3bX3J7dhTfN2KQ1oCsQZFLedbVl9"},
+            {"type": "image", "id": "1-A-NXQ3PDUgpfIbA6XSK_KnudeZUhtPP"},
+            {"type": "image", "id": "1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"}
         ]
     },
     {

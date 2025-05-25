@@ -17,13 +17,19 @@
               v-for="(media, index) in event.gallery"
               :key="index"
               :name="index"
-              :img-src="photoUrl(media.id)"
             >
               <q-video
                 v-if="media.type === 'video'"
                 :src="videoUrl(media.id)"
+                :poster="photoUrl(media.poster_id)"
                 controls
                 style="width: 100%; height: 500px;"
+              />
+              <q-img
+                v-else-if="media.type === 'image'"
+                :src="photoUrl(media.id)"
+                style="width: 100%; height: 500px;"
+                alt="Gallery Image"
               />
             </q-carousel-slide>
             <q-carousel-control
@@ -57,7 +63,7 @@ const photoUrl = (fileId) => {
 };
 
 const videoUrl = (fileId) => {
-  const url = `https://drive.google.com/file/d/${fileId}/view`;
+  const url = `https://www.youtube.com/embed/${fileId}`;
   return url;
 };
 
