@@ -1,8 +1,25 @@
 [
     {
+        "date": "2025-02-21",
+        "time": "19:00",
+        "location": "Pivovar Berounský medvěd",
+        "poster_id": "10--uoXFhFK1yJ8qBoroZsi4ar6Gdu5cW",
+        "gallery": [
+            "1-03c3bX3J7dhTfN2KQ1oCsQZFLedbVl9",
+            "1-A-NXQ3PDUgpfIbA6XSK_KnudeZUhtPP",
+            "1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"
+        ]
+    },
+    {
         "date": "2025-05-29",
         "time": "19:00",
         "location": "Autocamp Beroun Na hrázi",
+        "poster_id": "1RqqL-5Z6uEpGrJXdatf34Oxy29V3tiAV"
+    },
+    {
+        "date": "2025-09-13",
+        "time": "19:00",
+        "location": "Hostím, Hospoda U Krobiána",
         "poster_id": "1RqqL-5Z6uEpGrJXdatf34Oxy29V3tiAV"
     }
 ]

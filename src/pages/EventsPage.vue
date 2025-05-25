@@ -1,13 +1,20 @@
 <template>
-  <q-page class="flex flex-center">
+  <q-page class="column items-center q-gutter-md">
     <h5>Vystoupení</h5>
-    <q-card v-for="event in futureEvents" :key="event.id">
-      <q-card-section>
-        <p>Kdy: {{ event.date }}</p>
-        <p>Kde: {{ event.location }}</p>
-        <img :src="photoUrl(event.poster_id)" style="height: 500px;" alt="Poster">
-      </q-card-section>
-    </q-card>
+    <div class="column items-center q-gutter-md" style="width: 100%;">
+      <q-card
+        v-for="event in futureEvents"
+        :key="event.id"
+        class="q-mb-md"
+        style="max-width: 800px; width: 100%;"
+      >
+        <q-card-section>
+          <p>Kdy: {{ event.date }}</p>
+          <p>Kde: {{ event.location }}</p>
+          <img :src="photoUrl(event.poster_id)" style="height: 500px;" alt="Poster">
+        </q-card-section>
+      </q-card>
+    </div>
   </q-page>
 </template>
 
@@ -23,6 +30,6 @@ const photoUrl = (fileId) => {
 const today = new Date();
 
 const futureEvents = computed(() =>
-  data.filter(event => new Date(event.date) > today)
+  data.filter(event => new Date(event.date) >= today)
 );
 </script>

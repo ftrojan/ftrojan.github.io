@@ -22,10 +22,10 @@
       </ul>
     </p>
     <p>
-      Na fotografii pořízené v únoru 2025 v Berounském pivovaru jsou zleva Lukáš Randák, Petr Resch, Milan Dostalík, bicí zaskakuje Petr Resch mladší, Karel Šíma a Filip Trojan.
+      Na fotografii pořízené v únoru 2025 v Berounském pivovaru jsou zleva Lukáš Randák, Petr Resch, Milan Dostalík, Karel Šíma a Filip Trojan.
     </p>
     <img
-      src="https://lh3.googleusercontent.com/d/1-03c3bX3J7dhTfN2KQ1oCsQZFLedbVl9"
+      src="https://lh3.googleusercontent.com/d/1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"
       style="width: 100%;"
       alt="">
   </q-page>
