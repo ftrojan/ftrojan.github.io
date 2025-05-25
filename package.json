@@ -14,9 +14,9 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "postinstall": "quasar prepare",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist/spa",
     "check": "vite check",
-    "predeploy": "quasar build && vite build"
+    "predeploy": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
