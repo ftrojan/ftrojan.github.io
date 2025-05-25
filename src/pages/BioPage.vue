@@ -28,6 +28,20 @@
       src="https://lh3.googleusercontent.com/d/1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"
       style="width: 100%;"
       alt="">
+    <p class="q-mt-md">
+      Na jiné fotografii ze stejné akce je Martina Trojanová druhá zprava.
+    </p>
+    <img
+      src="https://lh3.googleusercontent.com/d/1-A-NXQ3PDUgpfIbA6XSK_KnudeZUhtPP"
+      style="width: 100%;"
+      alt="">
+    <p class="q-mt-md">
+      Na naší základně je v křesle vlevo zachycen bubeník Igor Nosov.
+    </p>
+    <img
+      src="https://lh3.googleusercontent.com/d/142i5pO0zWPfr1-YD6dv8HebvRn32MjWD"
+      style="width: 100%;"
+      alt="">
   </q-page>
 </template>
 
