@@ -14,11 +14,17 @@
             style="min-width: 1000px;"
           >
             <q-carousel-slide
-              v-for="(photo, index) in event.gallery"
+              v-for="(media, index) in event.gallery"
               :key="index"
               :name="index"
-              :img-src="photoUrl(photo)"
+              :img-src="photoUrl(media.id)"
             >
+              <q-video
+                v-if="media.type === 'video'"
+                :src="videoUrl(media.id)"
+                controls
+                style="width: 100%; height: 500px;"
+              />
             </q-carousel-slide>
             <q-carousel-control
               position="bottom-right"
@@ -50,6 +56,11 @@ const photoUrl = (fileId) => {
   return url;
 };
 
+const videoUrl = (fileId) => {
+  const url = `https://drive.google.com/file/d/${fileId}/view`;
+  return url;
+};
+
 const getId = (eventDate) => {
   // Remove all '-' characters and return as integer
   return parseInt(eventDate.replaceAll('-', ''), 10);
@@ -58,6 +69,8 @@ const getId = (eventDate) => {
 const today = new Date();
 
 const pastEvents = computed(() =>
-  data.filter(event => new Date(event.date) < today)
+  data
+    .filter(event => new Date(event.date) < today)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
 );
 </script>
