@@ -44,7 +44,9 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/',
+      publicPath: process.env.NODE_ENV === 'production'
+        ? '/ftrojan.github.io/'
+        : '/',
       // analyze: true,
       // env: {},
       // rawDefine: {}

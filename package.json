@@ -1,5 +1,6 @@
 {
   "name": "orion-jazz-band-quasar",
+  "homepage": "https://ftrojan.github.io/ftrojan.github.io",
   "version": "0.0.1",
   "description": "Web pages of the band",
   "productName": "Orion Jazz Band App",
@@ -12,7 +13,10 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "postinstall": "quasar prepare"
+    "postinstall": "quasar prepare",
+    "deploy": "gh-pages -d dist",
+    "check": "vite check",
+    "predeploy": "quasar build && vite build"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -22,15 +26,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@quasar/app-vite": "^2.1.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.2",
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
+    "gh-pages": "^6.3.0",
     "globals": "^15.12.0",
-    "vite-plugin-checker": "^0.9.0",
-    "@vue/eslint-config-prettier": "^10.1.0",
+    "postcss": "^8.4.14",
     "prettier": "^3.3.3",
-    "@quasar/app-vite": "^2.1.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "vite-plugin-checker": "^0.9.0"
   },
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
