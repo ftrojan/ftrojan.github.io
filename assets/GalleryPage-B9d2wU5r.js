@@ -1,0 +1,1 @@
+import{Q as r}from"./QPage-qkPA2MfX.js";import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{s as a,t as o,u as s,z as l}from"./index-JVyKWiAi.js";import"./render-DjSmuU3c.js";const c={};function f(n,e){return o(),a(r,{class:"flex flex-center"},{default:s(()=>e[0]||(e[0]=[l("h1",null,"Galerie",-1)])),_:1,__:[0]})}const u=t(c,[["render",f]]);export{u as default};
