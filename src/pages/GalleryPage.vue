@@ -2,13 +2,22 @@
   <q-page class="column items-center q-gutter-md">
     <h5>Galerie</h5>
     <div class="column items-center q-gutter-md" style="width: 100%;">
-      <q-card v-for="event in pastEvents" :key="getId(event.date)" class="q-mb-md" style="max-width: 1000px; width: 100%;">
+      <q-card
+        v-for="event in pastEvents"
+        :key="getId(event.date)"
+        class="q-mb-md"
+        style="max-width: 1000px; width: 100%;"
+      >
         <q-card-section>
           <p>Kdy: {{ event.date }}</p>
           <p>Kde: {{ event.location }}</p>
           <q-carousel
             v-if="event.gallery && event.gallery.length > 0"
-            v-model="mediaIndex"
+            :model-value="getMediaIndex(getId(event.date))"
+            @update:model-value="val => setMediaIndex(getId(event.date), val)"
+            :fullscreen="getFullscreen(getId(event.date))"
+            @update:fullscreen="val => setFullscreen(getId(event.date), val)"
+            swipeable
             animated
             arrows
             style="min-width: 1000px;"
@@ -44,6 +53,18 @@
               text-color="black"
               :icon="event.gallery.length > 1 ? 'chevron_left' : ''"
             />
+            <template v-slot:control>
+              <q-carousel-control
+                position="bottom-right"
+                :offset="[18, 18]"
+              >
+                <q-btn
+                  push round dense color="white" text-color="primary"
+                  :icon="getFullscreen(getId(event.date)) ? 'fullscreen_exit' : 'fullscreen'"
+                  @click="setFullscreen(getId(event.date), !getFullscreen(getId(event.date)))"
+                />
+              </q-carousel-control>
+            </template>
           </q-carousel>
         </q-card-section>
       </q-card>
@@ -55,22 +76,9 @@
 import { computed, ref } from 'vue';
 import data from 'src/assets/events.json';
 
-const mediaIndex = ref(0);
-
-const photoUrl = (fileId) => {
-  const url = `https://lh3.googleusercontent.com/d/${fileId}`;
-  return url;
-};
-
-const videoUrl = (fileId) => {
-  const url = `https://www.youtube.com/embed/${fileId}`;
-  return url;
-};
-
-const getId = (eventDate) => {
-  // Remove all '-' characters and return as integer
-  return parseInt(eventDate.replaceAll('-', ''), 10);
-};
+const photoUrl = (fileId) => `https://lh3.googleusercontent.com/d/${fileId}`;
+const videoUrl = (fileId) => `https://www.youtube.com/embed/${fileId}`;
+const getId = (eventDate) => parseInt(eventDate.replaceAll('-', ''), 10);
 
 const today = new Date();
 
@@ -79,4 +87,14 @@ const pastEvents = computed(() =>
     .filter(event => new Date(event.date) < today)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 );
+
+// Per-event state
+const mediaIndexes = ref({});
+const fullscreens = ref({});
+
+const getMediaIndex = (eventId) => mediaIndexes.value[eventId] ?? 0;
+const setMediaIndex = (eventId, val) => { mediaIndexes.value[eventId] = val; };
+
+const getFullscreen = (eventId) => fullscreens.value[eventId] ?? false;
+const setFullscreen = (eventId, val) => { fullscreens.value[eventId] = val; };
 </script>
