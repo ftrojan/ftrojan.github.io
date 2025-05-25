@@ -1,0 +1,1 @@
+import{Q as t}from"./QPage-DY7ocgAK.js";import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{s,t as o,u as a,z as n}from"./index-CUYiqZgu.js";import"./render-DjSmuU3c.js";const c={};function f(_,e){return o(),s(t,{class:"flex flex-center"},{default:a(()=>e[0]||(e[0]=[n("h1",null,"Vystoupení",-1)])),_:1,__:[0]})}const u=r(c,[["render",f]]);export{u as default};
