@@ -5,7 +5,7 @@
       Orion Jazz Band hraje a zpívá tradiční jazz a swing.
       Je to skupina muzikantů z Berounska se základnou na letišti v Bubovicích.
       Skupina vznikla v roce 2024 a je pojmenována po bývalém členovi skupiny, který již bohužel není mezi námi.
-      V repertoáru má skladby z 20. a 30. let minulého století, které jsou stále populární a oblíbené.
+      V repertoáru má skladby z 20. a 30. let minulého století, které jsou stále krásné a oblíbené.
       Jsou to převážně anglicky zpívané jazzové standardy, ale i české nebo portugalské písně, případně instrumentální skladby.
       Orion Jazz Band hraje na různých akcích k poslechu i k tanci. Aktuální kalendář vystoupení je k dispozici na stránce <a href="/events">Vystoupení</a>.
     </p>

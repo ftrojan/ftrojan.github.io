@@ -1,11 +1,11 @@
 <template>
   <q-page class="flex flex-center">
-    <h1>Vystoupení</h1>
+    <h5>Vystoupení</h5>
     <q-card v-for="event in futureEvents" :key="event.id">
       <q-card-section>
         <p>Kdy: {{ event.date }}</p>
         <p>Kde: {{ event.location }}</p>
-        <img :src="photoUrl(event.poster_id)" alt="Poster">
+        <img :src="photoUrl(event.poster_id)" style="height: 500px;" alt="Poster">
       </q-card-section>
     </q-card>
   </q-page>
