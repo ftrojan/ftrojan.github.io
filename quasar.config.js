@@ -37,16 +37,16 @@ export default defineConfig((/* ctx */) => {
         node: 'node20',
       },
 
-      vueRouterMode: 'history', // available values: 'hash', 'history'
-      // vueRouterBase,
-      // vueDevtools,
-      // vueOptionsAPI: false,
+      vueRouterMode: 'history',
+      publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+
+      // Single file for history mode SPA
+      htmlVariables: {
+        spa404: 'index.html',
+      },
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: process.env.NODE_ENV === 'production'
-        ? '/'
-        : '/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
