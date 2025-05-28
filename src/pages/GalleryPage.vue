@@ -9,8 +9,8 @@
         style="max-width: 1000px; width: 100%;"
       >
         <q-card-section>
-          <p>Kdy: {{ event.date }}</p>
-          <p>Kde: {{ event.location }}</p>
+          <h4 class="q-ma-none q-mt-sm">{{ formatDate(event.date) }}</h4>
+          <h5>{{ event.location }}</h5>
           <q-carousel
             v-if="event.gallery && event.gallery.length > 0"
             :model-value="getMediaIndex(getId(event.date))"
@@ -81,6 +81,15 @@ const videoUrl = (fileId) => `https://www.youtube.com/embed/${fileId}`;
 const getId = (eventDate) => parseInt(eventDate.replaceAll('-', ''), 10);
 
 const today = new Date();
+
+const formatDate = (dateStr) => {
+  const date = new Date(dateStr);
+  return new Intl.DateTimeFormat('cs-CZ', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  }).format(date);
+};
 
 const pastEvents = computed(() =>
   data
