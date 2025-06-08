@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-left">
-    <h5>Bio</h5>
-    <p>
+    <h5 class="q-ma-md">Bio</h5>
+    <p class="q-ma-md">
       Orion Jazz Band hraje a zpívá tradiční jazz a swing.
       Je to skupina muzikantů z Berounska se základnou na letišti v Bubovicích.
       Skupina vznikla v roce 2024 a je pojmenována po bývalém členovi skupiny, který již bohužel není mezi námi.
@@ -9,7 +9,7 @@
       Jsou to převážně anglicky zpívané jazzové standardy, ale i české nebo portugalské písně, případně instrumentální skladby.
       Orion Jazz Band hraje na různých akcích k poslechu i k tanci. Aktuální kalendář vystoupení je k dispozici na stránce <a href="/events">Vystoupení</a>.
     </p>
-    <p>
+    <p class="q-ma-md">
       V současné době hraje Orion Jazz Band v sestavě sedmi muzikantů:
     </p>
     <ul>
@@ -21,21 +21,21 @@
       <li>Martina Trojanová - zpěv</li>
       <li>Filip Trojan - zpěv a kytara</li>
     </ul>
-    <p>
+    <p class="q-ma-md">
       Na fotografii pořízené v únoru 2025 v Berounském pivovaru jsou zleva Lukáš Randák, Petr Resch, Milan Dostalík, Karel Šíma a Filip Trojan.
     </p>
     <img
       src="https://lh3.googleusercontent.com/d/1-i8JNQ7PhNPOGU4R6-cE83SorJNLb6Da"
       style="width: 100%;"
       alt="">
-    <p class="q-mt-md">
+    <p class="q-ma-md">
       Na jiné fotografii ze stejné akce je Martina Trojanová druhá zprava.
     </p>
     <img
       src="https://lh3.googleusercontent.com/d/1-A-NXQ3PDUgpfIbA6XSK_KnudeZUhtPP"
       style="width: 100%;"
       alt="">
-    <p class="q-mt-md">
+    <p class="q-ma-md">
       Na naší základně je v křesle vlevo zachycen bubeník Igor Nosov.
     </p>
     <img
