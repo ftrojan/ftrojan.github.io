@@ -32,8 +32,11 @@ import { computed } from 'vue';
 import data from 'src/assets/events.json';
 
 const photoUrl = (fileId) => {
-  const url = `https://lh3.googleusercontent.com/d/${fileId}`;
-  return url;
+  //const url = `https://lh3.googleusercontent.com/d/${fileId}`;
+  // const today = new Date().toISOString().split('T')[0]; // Gets YYYY-MM-DD
+  // const imageUrl = `https://drive.google.com/uc?id=${fileId}&date=${today}`;
+  const imageUrl = `https://lh3.googleusercontent.com/d/${fileId}`;
+  return imageUrl;
 };
 
 const formatDate = (dateStr) => {
