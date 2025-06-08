@@ -46,7 +46,21 @@
         "date": "2025-05-29",
         "time": "19:00",
         "location": "Autocamp Beroun Na hrázi",
-        "poster_id": "1RqqL-5Z6uEpGrJXdatf34Oxy29V3tiAV"
+        "poster_id": "1RqqL-5Z6uEpGrJXdatf34Oxy29V3tiAV",
+        "gallery": [
+            {"type": "image", "id": "13nNyAg09NTO0U3ZVdI5-03UWiBra0n3q"},
+            {"type": "image", "id": "1-KYd-i5Ldj2VuFN8EO0XeIDJBYHugQJy"},
+            {"type": "image", "id": "1bWqlfeOq18wPVk7MJ0-OstRLFcW1zMC0"},
+            {"type": "image", "id": "1CyYJNG6d83NaAbOl-RjsxcaWqBo34RGR"},
+            {"type": "video", "id": "50kgacpV3jw"},
+            {"type": "video", "id": "90pTA5FD-HU"}
+        ]
+    },
+    {
+        "date": "2025-06-13",
+        "time": "19:00",
+        "location": "Jez Dobřichovice",
+        "poster_id": "16a5mhBtvGK-Y58ewRUsxi0ryr7WxS35W"
     },
     {
         "date": "2025-09-13",

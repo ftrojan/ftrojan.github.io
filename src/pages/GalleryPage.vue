@@ -20,24 +20,27 @@
             swipeable
             animated
             arrows
-            style="min-width: 1000px;"
+            style="min-width: 1000px; height: 650px;"
           >
             <q-carousel-slide
               v-for="(media, index) in event.gallery"
               :key="index"
               :name="index"
+              class="column justify-center"
+              style="padding: 0;"
             >
               <q-video
                 v-if="media.type === 'video'"
                 :src="videoUrl(media.id)"
                 :poster="photoUrl(media.poster_id)"
                 controls
-                style="width: 100%; height: 500px;"
+                style="width: 100%; height: 650px; object-fit: contain;"
               />
               <q-img
                 v-else-if="media.type === 'image'"
                 :src="photoUrl(media.id)"
-                style="width: 100%; height: 500px;"
+                style="width: 100%; height: 650px;"
+                fit="contain"
                 alt="Gallery Image"
               />
             </q-carousel-slide>
