@@ -18,7 +18,7 @@
               <img :src="photoUrl(event.poster_id)" style="height: 500px;" alt="Poster">
             </div>
             <div v-else class="poster-placeholder">
-              {{ placeholderText }}
+              {{ event.placeholderText ? event.placeholderText : placeholderText }}
             </div>
           </div>
         </q-card-section>

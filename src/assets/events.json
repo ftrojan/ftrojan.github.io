@@ -60,7 +60,25 @@
         "date": "2025-06-13",
         "time": "19:00",
         "location": "Jez Dobřichovice",
-        "poster_id": "17iV941BWOVoH6FBlTG5n-w_l_oahAe4d"
+        "poster_id": "17iV941BWOVoH6FBlTG5n-w_l_oahAe4d",
+        "gallery": [
+            {"type":"image", "id": "1k9dtD82wrQWy_IaeAWRRUJ2_jRLHZKY8"},
+            {"type":"image", "id": "14v1IM9MI8d-_eYHD8uSHWttPPe51LLUX"},
+            {"type":"image", "id": "1aOscm-xOs248KLmKKCrqPkqMe3yU-ay0"},
+            {"type":"video", "id": "HIFdcXKCezU"}
+        ]
+    },
+    {
+        "date": "2025-06-26",
+        "time": "19:00",
+        "location": "Autocamp Beroun Na hrázi",
+        "poster_id": "17DbkwE1wlserdKI3FUT4cSrz6Ysj8TRe"
+    },
+    {
+        "date": "2025-07-19",
+        "time": "18:00",
+        "location": "Soukromá akce v Hýskově",
+        "placeholderText": "Plakát na tuto akci se nepřipravuje"
     },
     {
         "date": "2025-09-13",
