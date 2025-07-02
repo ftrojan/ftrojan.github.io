@@ -42,10 +42,12 @@ const photoUrl = (fileId) => {
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
   return new Intl.DateTimeFormat('cs-CZ', {
+    weekday: 'long',
     day: 'numeric',
     month: 'long',
     year: 'numeric'
-  }).format(date);
+  }).format(date)
+    .replace(/^\w/, c => c.toUpperCase()); // Capitalize first letter
 };
 
 const today = new Date();
