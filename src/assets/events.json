@@ -78,7 +78,20 @@
         "date": "2025-07-18",
         "time": "19:00",
         "location": "Jez Dobřichovice",
-        "poster_id": "12wzRrl6ifo1RVDhZ1Z8ULrxpJE6f1d54"
+        "poster_id": "12wzRrl6ifo1RVDhZ1Z8ULrxpJE6f1d54",
+        "gallery": [
+            {"type":"image", "id": "19JxAB_a3TzHUOy8darA__9Ro5AQCG3gN"},
+            {"type":"image", "id": "1BNgLMmgN1C01YANsC04M1X6CSspPul-y"},
+            {"type":"image", "id": "1qGiyThC1SCrze6vBLAL8b4ivnr0Kt6kC"},
+            {"type":"image", "id": "1Nd4D6OL9SbayS5oZ53z3YrkAyXizkTRA"},
+            {"type":"image", "id": "1XOhgWh-dC0ENjxl8BQTxxdV15SYVkOGV"}
+        ]
+    },
+    {
+        "date": "2025-08-08",
+        "time": "17:30",
+        "location": "Nižbor, bistro HST-P48, 400m pod jezem",
+        "poster_id": "1S5cxse7zeGp1gPLW9FFFk7v-p3IUMy60"
     },
     {
         "date": "2025-09-13",
