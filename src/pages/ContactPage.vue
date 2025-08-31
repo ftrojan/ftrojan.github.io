@@ -4,7 +4,7 @@
     <p>Telefon: +420 733 598 521</p>
     <p>WhatsApp: viz telefon</p>
     <p>Email: filip.trojan@proton.me</p>
-    <p>Facebook: https://www.facebook.com/profile.php?id=61578926830582&sk=about</p>
+    <p>Facebook: https://www.facebook.com/orionjazzband</p>
   </q-page>
 </template>
 
