@@ -4,8 +4,8 @@
     <p>Telefon: +420 733 598 521</p>
     <p>WhatsApp: viz telefon</p>
     <p>Email: filip.trojan@proton.me</p>
-    <p>Facebook: <a href="https://www.facebook.com/orionjazzband"/></p>
-    <p>Songbook: <a href="https://github.com/ftrojan/songbook/tree/main/pdf" />https://github.com/ftrojan/songbook/tree/main/pdf</p>
+    <p>Facebook: <a href="https://www.facebook.com/orionjazzband">https://www.facebook.com/orionjazzband</a></p>
+    <p>Songbook: <a href="https://github.com/ftrojan/songbook/tree/main/pdf">https://github.com/ftrojan/songbook/tree/main/pdf</a></p>
   </q-page>
 </template>
 
