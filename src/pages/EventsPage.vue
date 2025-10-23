@@ -10,7 +10,7 @@
       >
         <q-card-section class="row items-start justify-between full-width q-px-xl">
           <div class="event-info">
-            <h4 class="q-ma-none">{{ formatDate(event.date) }}</h4>
+            <h4 class="q-ma-none">{{ formatDate(event.date) }} od {{ event.time }}</h4>
             <h5 class="q-ma-none q-mt-sm">{{ event.location }}</h5>
           </div>
           <div class="poster-wrapper">
