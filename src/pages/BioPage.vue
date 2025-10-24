@@ -14,7 +14,7 @@
     </p>
     <ul>
       <li>Karel Šíma - kontrabas</li>
-      <li>Milan Dostalík - kytara</li>
+      <li>Tomáš Marada - kytara</li>
       <li>Lukáš Randák - trubka</li>
       <li>Igor Nosov - bicí</li>
       <li>Petr Resch - housle</li>
