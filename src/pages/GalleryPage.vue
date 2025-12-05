@@ -84,6 +84,13 @@ const videoUrl = (fileId) => `https://www.youtube.com/embed/${fileId}`;
 const getId = (eventDate) => parseInt(eventDate.replaceAll('-', ''), 10);
 
 const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// helper to parse YYYY-MM-DD as local date (midnight)
+const parseLocalDate = (dateStr) => {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return new Date(y, m - 1, d);
+};
 
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
@@ -96,7 +103,7 @@ const formatDate = (dateStr) => {
 
 const pastEvents = computed(() =>
   data
-    .filter(event => new Date(event.date) < today)
+    .filter(event => parseLocalDate(event.date) < today)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 );
 

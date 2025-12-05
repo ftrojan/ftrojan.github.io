@@ -4,7 +4,7 @@
     <div class="column items-center q-gutter-md" style="width: 100%;">
       <q-card
         v-for="event in futureEvents"
-        :key="event.id"
+        :key="event.date"
         class="q-mb-md event-card"
         style="width: 100%; min-height: 540px;"
       >
@@ -42,18 +42,24 @@ const photoUrl = (fileId) => {
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
   return new Intl.DateTimeFormat('cs-CZ', {
-    weekday: 'long',
     day: 'numeric',
     month: 'long',
     year: 'numeric'
-  }).format(date)
-    .replace(/^\w/, c => c.toUpperCase()); // Capitalize first letter
+  }).format(date);
 };
 
+// normalize "today" to local midnight
 const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// helper to parse YYYY-MM-DD as local date (midnight)
+const parseLocalDate = (dateStr) => {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return new Date(y, m - 1, d);
+};
 
 const futureEvents = computed(() =>
-  data.filter(event => new Date(event.date) >= today)
+  data.filter(event => parseLocalDate(event.date) >= today)
 );
 
 const placeholderText = "Plakát na tuto akci se připravuje";
