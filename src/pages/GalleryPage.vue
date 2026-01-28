@@ -78,6 +78,7 @@
 <script setup>
 import { computed, ref } from 'vue';
 import data from 'src/assets/events.json';
+import { formatDate, parseLocalDate } from 'src/utils/date';
 
 const photoUrl = (fileId) => `https://lh3.googleusercontent.com/d/${fileId}`;
 const videoUrl = (fileId) => `https://www.youtube.com/embed/${fileId}`;
@@ -85,21 +86,6 @@ const getId = (eventDate) => parseInt(eventDate.replaceAll('-', ''), 10);
 
 const today = new Date();
 today.setHours(0, 0, 0, 0);
-
-// helper to parse YYYY-MM-DD as local date (midnight)
-const parseLocalDate = (dateStr) => {
-  const [y, m, d] = dateStr.split('-').map(Number);
-  return new Date(y, m - 1, d);
-};
-
-const formatDate = (dateStr) => {
-  const date = new Date(dateStr);
-  return new Intl.DateTimeFormat('cs-CZ', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  }).format(date);
-};
 
 const pastEvents = computed(() =>
   data
