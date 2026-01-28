@@ -119,5 +119,15 @@
         "time": "19:00",
         "location": "Restaurace Žloukovice",
         "poster_id": "1mjf3-VBJ9WFSNxPRv91uCUvhZFSoO1Rv"
+    },
+    {
+      "date": "2026-03-13",
+      "time": "19:00",
+      "location": "Restaurace Žloukovice"
+    },
+    {
+      "date": "2026-04-23",
+      "time": "17:00",
+      "location": "Komunitní centrum Konírna, Hlubočepy"
     }
 ]
