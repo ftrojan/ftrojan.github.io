@@ -131,5 +131,29 @@
       "time": "17:00",
       "location": "Komunitní centrum Konírna, Hlubočepy",
       "poster_id": "1mnok3HQVsSIkEsoxDVj0G20LVMZzCHYV"
+    },
+    {
+        "date": "2026-05-22",
+        "time": "19:00",
+        "location": "Restaurace Chalupa, Rovina",
+        "poster_id": null
+    },
+    {
+        "date": "2026-05-28",
+        "time": "19:00",
+        "location": "Jez Dobřichovice",
+        "poster_id": null
+    },
+    {
+        "date": "2026-06-10",
+        "time": "14:30",
+        "location": "KC Konirna, Hlubocepy",
+        "poster_id": null
+    },
+    {
+        "date": "2026-06-12",
+        "time": "19:00",
+        "location": "Restaurace Chalupa, Rovina",
+        "poster_id": null
     }
 ]
