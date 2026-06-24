@@ -32,3 +32,7 @@ yarn-error.log*
 
 # local .env files
 .env.local*
+
+# Google Drive OAuth (scripts/upload_posters_to_drive.py)
+scripts/credentials.json
+scripts/token.json
